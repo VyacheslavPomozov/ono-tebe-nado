@@ -167,6 +167,7 @@
 }
 
 .lots__card-list-item {
+  flex-grow: 1;
   position: relative;
   width: 334px;
   min-height: 563px;
@@ -205,7 +206,7 @@
 .card__title {
   display: block;
   z-index: 1;
-  width: 254px;
+  min-width: 254px;
   margin-top: 51px;
   margin-left: 40px;
   font-weight: 700;
@@ -220,7 +221,7 @@
 .card__text {
   display: block;
   z-index: 1;
-  width: 254px;
+  min-width: 254px;
   margin-bottom: 48px;
   margin-left: 40px;
   font-weight: 400;
