@@ -37,8 +37,7 @@
 }
 
 .header__logo {
-  position: relative;
-  right: 84px;
+  margin-right: 168px;
   width: 137px;
   height: 105px;
 }
@@ -82,7 +81,7 @@
   z-index: 1;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115%;
+  line-height: 100%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #fff;
@@ -91,17 +90,16 @@
 .aligned-text {
   margin-top: 165px;
   margin-left: 50px;
+  line-height: 115%;
 }
 
 .aligned-text_center {
   text-align: center;
-  line-height: 100%;
 }
 
 .aligned-text_right {
   margin-right: 20px;
   text-align: right;
-  line-height: 100%;
 }
 
 .letter-spacing-extended {
